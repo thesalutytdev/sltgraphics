@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.thesalutyt.sltgraphics.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "sltgraphics.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MainMixin",
+    "RenderSystemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
